@@ -9,6 +9,7 @@ public class class01 {
 			int ans=num/den;
 		}
 		catch(ArithmeticException e) {
+			System.out.println("divide by zero");
 		}
 		finally {
 			System.out.println("end of main() methood");
